@@ -9,28 +9,28 @@
 // Custom nodes:
 #include "nlib\DDS\DDS.h"
 #include "nlib\Ticker\ticker.h"
+#include "nlib\FlexCounter\FlexCounter.h"
 #include "nlib\Blink\blink.h"
 #include "nlib\OLEDisplay\OLEDisplay.h"
 #include "nlib\StringFormat\stringformat.h"
-#include "nlib\Counter\counter.h"
 #include "nlib\ValueTrig\valuetrig.h"
 
 // -*-*- List of node objects -*-*-
 nBlock_DDS               nb_nBlockNode0_DDS          (p5, p7, p14, 40000);
-nBlock_Ticker            nb_nBlockNode2_Ticker       (3000);
-nBlock_Blink             nb_nBlockNode3_Blink        (2000, LED1);
-nBlock_OLEDisplay        nb_nBlockNode4_OLEDisplay   (p9, p10, p27);
-nBlock_StringFormat      nb_nBlockNode5_StringFormat ("Function = %d  \r");
-nBlock_Counter           nb_nBlockNode6_Counter      (4);
-nBlock_ValueTrig         nb_nBlockNode7_ValueTrig    (44000);
+nBlock_Ticker            nb_nBlockNode2_Ticker       (1000);
+nBlock_FlexCounter       nb_nBlockNode3_FlexCounter  (44000, 38000, 100, 0);
+nBlock_Blink             nb_nBlockNode4_Blink        (2000, LED1);
+nBlock_OLEDisplay        nb_nBlockNode5_OLEDisplay   (p9, p10, p27);
+nBlock_StringFormat      nb_nBlockNode6_StringFormat ("Frequency = %d  \r");
+nBlock_ValueTrig         nb_nBlockNode7_ValueTrig    (2);
 
 // -*-*- List of connection objects -*-*-
-nBlockConnection    n_conn0( &nb_nBlockNode5_StringFormat, 0,    &nb_nBlockNode4_OLEDisplay,   0);
-nBlockConnection    n_conn1( &nb_nBlockNode2_Ticker,       0,    &nb_nBlockNode6_Counter,      0);
+nBlockConnection    n_conn0( &nb_nBlockNode6_StringFormat, 0,    &nb_nBlockNode5_OLEDisplay,   0);
+nBlockConnection    n_conn1( &nb_nBlockNode2_Ticker,       0,    &nb_nBlockNode3_FlexCounter,  0);
 nBlockConnection    n_conn2( &nb_nBlockNode2_Ticker,       0,    &nb_nBlockNode7_ValueTrig,    0);
-nBlockConnection    n_conn3( &nb_nBlockNode6_Counter,      0,    &nb_nBlockNode0_DDS,          1);
-nBlockConnection    n_conn4( &nb_nBlockNode6_Counter,      0,    &nb_nBlockNode5_StringFormat, 0);
-nBlockConnection    n_conn5( &nb_nBlockNode7_ValueTrig,    0,    &nb_nBlockNode0_DDS,          0);
+nBlockConnection    n_conn3( &nb_nBlockNode7_ValueTrig,    0,    &nb_nBlockNode0_DDS,          1);
+nBlockConnection    n_conn4( &nb_nBlockNode3_FlexCounter,  0,    &nb_nBlockNode0_DDS,          0);
+nBlockConnection    n_conn5( &nb_nBlockNode3_FlexCounter,  0,    &nb_nBlockNode6_StringFormat, 0);
 
 
 // -*-*- Main function -*-*-
