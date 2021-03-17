@@ -2,32 +2,32 @@
     {
         "module": "[fill]",
         "size": {
-            ".text": 598,
+            ".text": 616,
             ".data": 8,
-            ".bss": 23,
-            ".text-delta": 598,
-            ".data-delta": 8,
-            ".bss-delta": 23
+            ".bss": 27,
+            ".text-delta": -4,
+            ".data-delta": 0,
+            ".bss-delta": -4
         }
     },
     {
         "module": "[lib]\\c.a",
         "size": {
-            ".text": 27964,
+            ".text": 31204,
             ".data": 2472,
             ".bss": 89,
-            ".text-delta": 27964,
-            ".data-delta": 2472,
-            ".bss-delta": 89
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
         }
     },
     {
         "module": "[lib]\\gcc.a",
         "size": {
-            ".text": 4744,
+            ".text": 8644,
             ".data": 0,
             ".bss": 0,
-            ".text-delta": 4744,
+            ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -38,7 +38,7 @@
             ".text": 248,
             ".data": 0,
             ".bss": 0,
-            ".text-delta": 248,
+            ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -49,84 +49,117 @@
             ".text": 180,
             ".data": 4,
             ".bss": 28,
-            ".text-delta": 180,
-            ".data-delta": 4,
-            ".bss-delta": 28
-        }
-    },
-    {
-        "module": "main.o",
-        "size": {
-            ".text": 126,
-            ".data": 0,
-            ".bss": 168,
-            ".text-delta": 126,
-            ".data-delta": 0,
-            ".bss-delta": 168
-        }
-    },
-    {
-        "module": "mbed-os\\drivers",
-        "size": {
-            ".text": 1634,
-            ".data": 0,
-            ".bss": 24,
-            ".text-delta": 1634,
-            ".data-delta": 0,
-            ".bss-delta": 24
-        }
-    },
-    {
-        "module": "mbed-os\\hal",
-        "size": {
-            ".text": 1932,
-            ".data": 4,
-            ".bss": 67,
-            ".text-delta": 1932,
-            ".data-delta": 4,
-            ".bss-delta": 67
-        }
-    },
-    {
-        "module": "mbed-os\\platform",
-        "size": {
-            ".text": 3534,
-            ".data": 260,
-            ".bss": 340,
-            ".text-delta": 3534,
-            ".data-delta": 260,
-            ".bss-delta": 340
-        }
-    },
-    {
-        "module": "mbed-os\\targets",
-        "size": {
-            ".text": 4268,
-            ".data": 32,
-            ".bss": 245,
-            ".text-delta": 4268,
-            ".data-delta": 32,
-            ".bss-delta": 245
-        }
-    },
-    {
-        "module": "nlib\\DDS",
-        "size": {
-            ".text": 632,
-            ".data": 0,
-            ".bss": 0,
-            ".text-delta": 632,
+            ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
         }
     },
     {
-        "module": "nlib\\Generator",
+        "module": "[lib]\\nosys.a",
         "size": {
-            ".text": 4,
+            ".text": 32,
             ".data": 0,
             ".bss": 0,
-            ".text-delta": 4,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "[lib]\\stdc++.a",
+        "size": {
+            ".text": 4664,
+            ".data": 8,
+            ".bss": 44,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "main.o",
+        "size": {
+            ".text": 596,
+            ".data": 0,
+            ".bss": 1504,
+            ".text-delta": -12,
+            ".data-delta": 0,
+            ".bss-delta": -44
+        }
+    },
+    {
+        "module": "mbed-os\\drivers",
+        "size": {
+            ".text": 2558,
+            ".data": 0,
+            ".bss": 36,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os\\hal",
+        "size": {
+            ".text": 2088,
+            ".data": 4,
+            ".bss": 67,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os\\platform",
+        "size": {
+            ".text": 5632,
+            ".data": 260,
+            ".bss": 364,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os\\targets",
+        "size": {
+            ".text": 4866,
+            ".data": 32,
+            ".bss": 245,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "nlib\\Blink",
+        "size": {
+            ".text": 430,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "nlib\\Counter",
+        "size": {
+            ".text": 148,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "nlib\\DDS",
+        "size": {
+            ".text": 758,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -134,20 +167,64 @@
     {
         "module": "nlib\\KernelNode",
         "size": {
-            ".text": 540,
+            ".text": 608,
             ".data": 12,
-            ".bss": 84,
-            ".text-delta": 540,
-            ".data-delta": 12,
-            ".bss-delta": 84
+            ".bss": 88,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "nlib\\OLEDisplay",
+        "size": {
+            ".text": 2132,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "nlib\\StringFormat",
+        "size": {
+            ".text": 220,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "nlib\\Ticker",
+        "size": {
+            ".text": 318,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "nlib\\ValueTrig",
+        "size": {
+            ".text": 90,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
         }
     },
     {
         "summary": {
-            "static_ram": 3860,
-            "static_ram_delta": 3860,
-            "total_flash": 49196,
-            "total_flash_delta": 49196
+            "static_ram": 5292,
+            "static_ram_delta": -48,
+            "total_flash": 68832,
+            "total_flash_delta": -16
         }
     }
 ]

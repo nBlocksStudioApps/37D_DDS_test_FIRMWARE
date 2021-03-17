@@ -1,8 +1,10 @@
-BUILD\LPC1768\GCC_ARM\main.o: main.cpp \
- BUILD/LPC1768/GCC_ARM\mbed_config.h nlib\nblocks.h mbed-os/mbed.h \
- mbed-os/platform/mbed_version.h mbed-os/platform/mbed_toolchain.h \
- mbed-os/platform/mbed_preprocessor.h mbed-os/platform/platform.h \
- mbed-os/platform/mbed_retarget.h mbed-os/platform/mbed_toolchain.h \
+BUILD\LPC1768\GCC_ARM\nlib\SimpleLoRa\SX1272_Lib\sx127x.o: \
+ nlib\SimpleLoRa\SX1272_Lib\sx127x.cpp \
+ BUILD/LPC1768/GCC_ARM\mbed_config.h nlib\SimpleLoRa\SX1272_Lib\sx127x.h \
+ mbed-os/mbed.h mbed-os/platform/mbed_version.h \
+ mbed-os/platform/mbed_toolchain.h mbed-os/platform/mbed_preprocessor.h \
+ mbed-os/platform/platform.h mbed-os/platform/mbed_retarget.h \
+ mbed-os/platform/mbed_toolchain.h \
  mbed-os/targets/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768/device.h \
  mbed-os/targets/TARGET_NXP/TARGET_LPC176X/objects.h \
  mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/cmsis.h \
@@ -74,12 +76,4 @@ BUILD\LPC1768\GCC_ARM\main.o: main.cpp \
  mbed-os/platform/ScopedRomWriteLock.h mbed-os/platform/mbed_mpu_mgmt.h \
  mbed-os/hal/mpu_api.h mbed-os/platform/ScopedRamExecutionLock.h \
  mbed-os/platform/mbed_stats.h mbed-os/platform/Callback.h \
- mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
- nlib/KernelNode/nworkbench.h nlib/KernelNode/fifo.h nlib\DDS\DDS.h \
- nlib\Ticker\ticker.h nlib\Blink\blink.h nlib\OLEDisplay\OLEDisplay.h \
- nlib/OLEDisplay/Adafruit_GFX/Adafruit_SSD1306.h \
- nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX.h \
- nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX_Config.h \
- nlib/OLEDisplay/Adafruit_GFX/Adafruit_GFX.h \
- nlib\StringFormat\stringformat.h nlib\Counter\counter.h \
- nlib\ValueTrig\valuetrig.h
+ mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h
