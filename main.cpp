@@ -17,7 +17,7 @@
 
 // -*-*- List of node objects -*-*-
 nBlock_DDS               nb_nBlockNode0_DDS          (p5, p7, p14, 40000);
-nBlock_Ticker            nb_nBlockNode2_Ticker       (1000);
+nBlock_Ticker            nb_nBlockNode2_Ticker       (100);
 nBlock_FlexCounter       nb_nBlockNode3_FlexCounter  (44000, 38000, 100, 0);
 nBlock_Blink             nb_nBlockNode4_Blink        (2000, LED1);
 nBlock_OLEDisplay        nb_nBlockNode5_OLEDisplay   (p9, p10, p27);
