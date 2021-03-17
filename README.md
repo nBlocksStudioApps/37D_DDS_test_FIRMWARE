@@ -20,11 +20,11 @@ width = 900
 
 <img
 src="img/04.PNG"
-height = 425
+height = 400
 />
 <img
 src="img/05.PNG"
-height = 425
+height = 400
 />
 
 ----
@@ -32,11 +32,11 @@ height = 425
 ## Frequency responce
 <img
 src="img/03.GIF"
-width = 450
+width = 400
 />
 <img
 src="img/04.GIF"
-width = 450
+width = 400
 />
 
 ----
