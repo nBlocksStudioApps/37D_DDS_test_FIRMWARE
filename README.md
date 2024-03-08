@@ -47,3 +47,62 @@ width = 400
 />
 
 ----
+
+## Review 08/03/2024
+Evaluation of AD606 Logarithmic Amplifier Low cost Board, to be used as input amplifier for Piezoelectric Ultrasonic and sonic receiver
+
+<p align="center">
+<img
+src="img/10.PNG"
+width = 600
+/>
+</p> 
+
+`image 10: Setup diagram for AD606 Logarithmic amplifier evaluation`
+
+----
+
+<p align="center">
+<img
+src="img/06.PNG"
+width = 600
+/>
+</p> 
+
+`image 06: Setup photo. for AD606 Logarithmic amplifier evaluation`
+
+----
+
+<p align="center">
+<img
+src="img/07.PNG"
+width = 600
+/>
+</p> 
+
+`image 07: Signals view with oscilloscope. The Amplified signal is clearly visible and measurable, while the RAW received signal is hard to detect and measure`
+
+----
+
+<p align="center">
+<img
+src="img/08.PNG"
+width = 600
+/>
+</p> 
+
+`image 08: Signals view with oscilloscope. The RAW received signal is amplified with Oscilloscope 10 times more than the Amplified. Still not clean`
+
+----
+
+
+<p align="center">
+<img
+src="img/09.PNG"
+width = 600
+/>
+</p> 
+
+`image 09: Physical points where the oscilloscope is connected`
+
+----
